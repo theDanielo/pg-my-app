@@ -13,8 +13,8 @@
         Hello World
     </description>
 
-    <author href="http://nativapps.com" email="support@nativapps.com">d
-        NativApps 
+    <author href="http://thedanielo.com" email="danielo200@gmail.com">d
+        Daniel Gracia 
     </author>
   <feature name=http://api.PhoneGap.com/1.0/notification/>
 </widget>
