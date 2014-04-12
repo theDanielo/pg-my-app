@@ -13,9 +13,8 @@
         Hello World
     </description>
 
-    <author href="http://thedanielo.com" email="danielo200@gmail.com">d
+    <author href="http://thedanielo.com" email="danielo200@gmail.com">
         Daniel Gracia 
     </author>
-  <feature name=http://api.PhoneGap.com/1.0/notification/>
+  <feature name="http://api.PhoneGap.com/1.0/notification" />
 </widget>
-</xml>
