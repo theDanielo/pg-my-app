@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World App</title>
+
+    <script src="js/PhoneGap.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Initialization
+    
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // We are ready
+    
+    function onDeviceReady() {
+        // Empty
+    }
+
+    // Alerts dismissed
+    function alertDismissed() {
+        // empty
+    }
+
+    // Show Hello World Alert
+    
+    function showAlert() {
+        navigator.notification.alert(
+            'Your environment to develop is OK!',  // message
+            alertDismissed,         // callback
+            'Hello World App',     // title
+            'OK'                  // buttonName
+        );
+    }
+
+    </script>
+  </head>
+  <body>
+    <p><a href="#" onclick="showAlert(); return false;">Start Hello World App</a></p>
+  </body>
+</html>
